@@ -1,0 +1,90 @@
+.header {
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.header__banner {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 457px;
+}
+
+.flex {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+border: 1px solid black;
+padding: 50px;
+max-width: 600px;
+margin: auto;
+background-color: #a0e2d7;
+}
+
+.flex__item--button {
+  padding: 10px;    
+  font-size: larger;
+  color: antiquewhite;
+  background-color: black;
+}
+
+.flex__item--button:hover {
+background-color: antiquewhite;
+color: black;
+}
+
+.flex__item--button:active {
+background-color: rgba(250, 235, 215, 0.522);
+color: rgba(0, 0, 0, 0.462);
+}
+
+.flex__item--input {
+  flex-grow: 1;
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__list--item {
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 20px;   
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  word-break: break-all;
+  cursor: pointer;
+}
+
+.header__list--item:hover {
+  color: #03a9f4;
+}
+
+.header__list-button {
+  display: inline-block;
+  margin-left: auto;
+  width: 40px;
+  height: 30px;
+  background-image: url('../Images/wastebasket.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.completed {
+  text-decoration: line-through;
+
+}
+
+
+
+
+
+
