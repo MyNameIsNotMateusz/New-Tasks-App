@@ -25,11 +25,13 @@ background-color: #a0e2d7;
   font-size: larger;
   color: antiquewhite;
   background-color: black;
+  transition: 1s;
 }
 
 .flex__item--button:hover {
 background-color: antiquewhite;
 color: black;
+transform: scale(1.1);
 }
 
 .flex__item--button:active {
@@ -65,7 +67,9 @@ color: rgba(0, 0, 0, 0.462);
 }
 
 .header__list-button {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
   margin-left: auto;
   width: 40px;
   height: 30px;
@@ -73,18 +77,31 @@ color: rgba(0, 0, 0, 0.462);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
+  border: none; 
 }
 
 .completed {
   text-decoration: line-through;
-
 }
 
+.flex__newButtons {
+  display: flex;
+  justify-content: center;
+}
 
+.markAllCompletedButton, .hideCompletedButton {
+  padding: 5px;    
+  font-size: 15px;
+  color: black;
+  margin: 5px;
+}
 
+.blockedButton {
+  background-color: #9fa2a3;
+  border: none;
+}
 
-
+.hidden {
+  display: none;
+}
 
