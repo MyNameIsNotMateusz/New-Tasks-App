@@ -3,11 +3,17 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mynameisnotmateusz&label=Profile%20views&color=0e75b6&style=flat" alt="mynameisnotmateusz" /> </p>
 
+- 🔭 I’m currently working on [newTasks](https://mynameisnotmateusz.github.io/newTasks/)
+
 - 🌱 I’m currently learning **Frontend Developer**
 
 - 👨‍💻 All of my projects are available at [https://github.com/MyNameIsNotMateusz?tab=repositories](https://github.com/MyNameIsNotMateusz?tab=repositories)
 
 - 📫 How to reach me **mati1otorowski@gmail.com**
+
+- 🤝 How to use my app?
+
+![Tutorial](https://github.com/MyNameIsNotMateusz/newTasks/blob/main/Images/tutorial.gif)
 
 - ⚡ Fun fact **I think I'm very hardworking**
 
