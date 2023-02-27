@@ -13,7 +13,7 @@
 
 - 🤝 How to use my app?
 
-![Tutorial](https://github.com/MyNameIsNotMateusz/newTasks/blob/main/Images/tutorial.gif)
+![Tutorial](https://github.com/MyNameIsNotMateusz/newTasks/blob/main/Images/tutorial_v1.2.gif)
 
 - ⚡ Fun fact **I think I'm very hardworking**
 
