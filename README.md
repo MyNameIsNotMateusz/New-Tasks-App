@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mynameisnotmateusz&label=Profile%20views&color=0e75b6&style=flat" alt="mynameisnotmateusz" /> </p>
 
-- 🔭 I’m currently working on [newTasks](https://mynameisnotmateusz.github.io/newTasks/)
+- 🔭 I’m currently working on [New-Tasks-App](https://mynameisnotmateusz.github.io/New-Tasks-App/)
 
 - 🌱 I’m currently learning **Frontend Developer**
 

@@ -11,9 +11,9 @@ const addNewTasks = () => {
       task.classList.add("hidden");
     });
     if (document.querySelectorAll(".completed.hidden").length > 0) {
-      hideCompletedButton.textContent = "Pokaż ukończone";
+      hideCompletedButton.textContent = "Show completed";
     } else {
-      hideCompletedButton.textContent = "Ukryj ukończone";
+      hideCompletedButton.textContent = "Hide completed";
     }
   };
 
@@ -22,17 +22,17 @@ const addNewTasks = () => {
     completedTasks.forEach((task) => {
       task.classList.remove("hidden");
     });
-    hideCompletedButton.textContent = "Ukryj ukończone";
+    hideCompletedButton.textContent = "Hide completed";
   };
 
   const render = () => {
     if (list.children.length > 0) {
       hideCompletedButton = document.createElement("button");
-      hideCompletedButton.textContent = "Ukryj ukończone";
+      hideCompletedButton.textContent = "Hide completed";
       hideCompletedButton.classList.add("hideCompletedButton");
       hideCompletedButton.addEventListener("click", () => {
         const completedTasks = document.querySelectorAll(".completed");
-        if (hideCompletedButton.textContent === "Ukryj ukończone") {
+        if (hideCompletedButton.textContent === "Hide completed") {
           hideCompleted();
         } else {
           showCompleted();
@@ -40,7 +40,7 @@ const addNewTasks = () => {
       });
 
       const markAllCompletedButton = document.createElement("button");
-      markAllCompletedButton.textContent = "Ukończ wszystkie";
+      markAllCompletedButton.textContent = "Complete all";
       markAllCompletedButton.classList.add("markAllCompletedButton");
       markAllCompletedButton.addEventListener("click", () => {
         const allTasks = document.querySelectorAll(".header__list--item");
@@ -88,7 +88,7 @@ const addNewTasks = () => {
       render();
     });
 
-    newTask.setAttribute("title", "Kliknij, aby oznaczyć zadanie jako zakończone");
+    newTask.setAttribute("title", "Click to mark the task as complete");
 
     render();
   });
