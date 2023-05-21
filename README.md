@@ -13,7 +13,14 @@
 
 - 🤝 How to use my app?
 
-![Tutorial](https://github.com/MyNameIsNotMateusz/newTasks/blob/main/Images/tutorial_v1.2.gif)
+1. Type your task or note in the text field at the top of the screen and press Enter or click the "Add a task" button next to the text field.
+2. The task will be added to the task list below the text box.
+3. If you want to mark a task as done, click on it in the list of tasks. The task will be crossed out to indicate that it has been completed.
+4. If you want to delete a task, hover your mouse over it and then click on the trash can icon that will appear next to the task.
+5. You can also mark all tasks as done with "Complete all" button
+6. You can also hide all completed tasks using the "Hide completed" button.
+
+![Tutorial](https://github.com/MyNameIsNotMateusz/New-Tasks-App/blob/main/Images/New-Tasks-App.gif)
 
 - ⚡ Fun fact **I think I'm very hardworking**
 
