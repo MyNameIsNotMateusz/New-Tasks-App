@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/MyNameIsNotMateusz?tab=repositories](https://github.com/MyNameIsNotMateusz?tab=repositories)
 
-- 📫 How to reach me **mati1otorowski@gmail.com**
+- 📫 How to reach me **codebymateusz@gmail.com**
 
 - 🤝 How to use my app?
 
